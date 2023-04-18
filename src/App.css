@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.main_div{
+  display: flex;
+  justify-content: center;
+  height: 95vh;
+  align-items: center;
+  background-color: #61dafb;
+}
+
+.center_div{
+  background-color: rgb(251, 0, 255);
+  text-align: center;
+  border: 2px solid rgb(255, 0, 221);
+  box-shadow: 0 0 20px;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+}
+
+input {
+  width: 300px;
+  height: 35px;
+}
+button{
+  width: 150px;
+  cursor: pointer;
+  height: 35px;
+  background-color: rgb(146, 144, 223);
+  border-radius: 20px;
+  border-color: rgb(187, 141, 229);
+}
